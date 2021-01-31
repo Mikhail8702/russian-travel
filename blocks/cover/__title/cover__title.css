@@ -34,7 +34,7 @@
 @media all and (max-width: 425px) {
   .cover__title {
     top: 33px;
-    width: 90%;
+    width: 79%;
     font-size: 32px;
   }
 }
