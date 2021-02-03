@@ -2,7 +2,7 @@
   box-sizing: border-box;
   max-width: 100%;
   display: grid;
-  grid-template-columns: 47% 49%;
+  grid-template-columns: 47% minmax(200px, 1fr);
   grid-template-rows: repeat(2, max-content);
   column-gap: 4%;
   row-gap: 48px;
