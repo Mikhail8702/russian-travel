@@ -23,18 +23,17 @@
     column-gap: 4%;
   }
 }
-
-@media all and (max-width: 425px) {
+@media all and (max-width: 480px) {
   .place {
-    width: 100%;
     display: flex;
     flex-direction: column;
+}
+@media all and (max-width: 425px) {
+  .place {
     justify-content: flex-start;
     row-gap: 0;
     column-gap: 0;
     padding-bottom: 50px;
   }
-  .place:last-child {
-    padding-bottom: 0;
-  }
+}
 }

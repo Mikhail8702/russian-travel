@@ -11,7 +11,6 @@
 .footer__menu-item:last-of-type {
   margin-right: 0;
 }
-
 @media all and (max-width: 425px) {
   .footer__menu-item {
     margin-bottom: 32px;

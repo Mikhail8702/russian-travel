@@ -6,8 +6,3 @@
 .place__link:hover {
   opacity: 0.8;
 }
-@media all and (max-width: 500px) {
-  .place__link {
-    font-size: 16px;
-  }
-}

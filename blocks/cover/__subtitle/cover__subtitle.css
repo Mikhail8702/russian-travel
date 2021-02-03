@@ -3,23 +3,22 @@
   max-width: 360px;
   text-align: center;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 22px;
 }
 
 @media all and (max-width: 1024px) {
   .cover__subtitle {
-    top: 379px;
+
   }
 }
 @media all and (max-width: 768px) {
   .cover__subtitle {
-    top: 299px;
   }
 }
 @media all and (max-width: 425px) {
   .cover__subtitle {
-    top: 119px;
     font-size: 14px;
     width: 83%;
+    line-height: 16px;
   }
 }
