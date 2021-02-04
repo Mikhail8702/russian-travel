@@ -4,9 +4,8 @@
   margin: 0;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .footer__menu {
-    margin-bottom: 42px;
     flex-direction: column;
     margin-bottom: 48px;
   }
