@@ -5,14 +5,10 @@
   margin: 0 auto;
   padding: 92px 0 24px 0;
 }
-@media all and (max-width: 765px) {
+
+@media all and (max-width: 768px) {
   .footer {
     flex-direction: column;
-    align-items: center;
-  }
-}
-@media all and (max-width: 425px) {
-  .footer {
     align-items: start;
     max-width: 100%;
     padding: 64px 0 24px 16px;
