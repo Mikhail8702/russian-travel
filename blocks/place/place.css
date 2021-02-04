@@ -2,7 +2,7 @@
   box-sizing: border-box;
   max-width: 100%;
   display: grid;
-  grid-template-columns: 47% minmax(200px, 1fr);
+  grid-template-columns: 47% minmax(230px, 1fr);
   grid-template-rows: repeat(2, max-content);
   column-gap: 4%;
   row-gap: 48px;
@@ -23,7 +23,7 @@
     column-gap: 4%;
   }
 }
-@media all and (max-width: 480px) {
+@media all and (max-width: 500px) {
   .place {
     display: flex;
     flex-direction: column;
